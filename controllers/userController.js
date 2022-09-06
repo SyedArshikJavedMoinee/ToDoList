@@ -4,6 +4,8 @@ const userModel = model.Users;
 const listModel = model.List;
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const logger = require('../logger');
+const { loggers, Logger } = require('winston');
 const SECRET_KEY ='HELLO';
 const uuidv4 = require('uuid').v4;
 
@@ -28,7 +30,7 @@ const signUp = async (req,res) => {
         console.log({data: email});
         const hashedPassword = await bcrypt.hashSync(req.body.password, 10);
 
-        console.log('hello ');
+        //console.log('hello ');
 
 
         const result = await userModel.create({
@@ -39,10 +41,12 @@ const signUp = async (req,res) => {
 
         const token = jwt.sign({email:result.email, id: result._id }, SECRET_KEY)
         res.status(201).json({user: result, token: token});
-
+        
+        logger.info('User created successfully');
+        
         // req.session.email = req.body.email;
     }catch(err){
-        console.log(err);
+        logger.error('Error creating user', err);
         res.send("Something went wrong");
     }
     
@@ -57,17 +61,19 @@ const signIn = async (req,res)=>{
     try{
         const existingUser = await userModel.findOne({where: {email: email} })
 
-        console.log(existingUser.id);
+        //console.log(existingUser.id);
 
         const id = existingUser.id;
 
         if(!existingUser ){
+            logger.info('User not found');
             return res.status(404).json({message: "User not found"})
         }
         
         const matchPassword = await bcrypt.compare(password, existingUser.password);
         
         if(!matchPassword){
+            logger.info('Password incorrect');
             return res.status(401).json({message: "Password doesn't match"})
         }
         
@@ -75,18 +81,18 @@ const signIn = async (req,res)=>{
         const sessionId = uuidv4();
         sessions[sessionId] = { id , email };
         res.set('Set-Cookie', `session=${sessionId}`);
-        res.send('success');
-        
+        res.send('Success');
+        logger.info('User signed in successfully');
         const token =  jwt.sign({email:existingUser.email, id: id }, SECRET_KEY );
         // res.cookie('jwt', token, {httpOnly: true});
         
         //res.status(201).json({user: existingUser, token: token});
         
         const userVer =  jwt.verify(token, SECRET_KEY);
-        console.log(userVer);
+        //console.log(userVer);
         
     }catch(err){
-        console.log(err);
+        logger.error('Error verifying' , err);
         res.send("Something went wrong");
         
     }
@@ -99,23 +105,26 @@ const removeUser = async (req,res)=> {
         const user = await userModel.findOne({where: {id :req.params.id} });
 
         if(!user){
+            logger.info("User not found");
             return res.status(404).json({message: "User not found"})
         }
         else{
             await userModel.destroy({where: {id: req.params.id}});
+            logger.info("User deleted successfully");
             return res.status(200).json({message: "User removed"})
         }
     }catch(err){
-        console.log(err);
+        logger.error('Error while deleting user', err);
         res.send("Something went wrong");
     }
 }
 
 const allUsers = async (req,res)=> {
     const users = await userModel.findAll({});
+    logger.info("Users found");
     res.send(users);
 
-    console.log(JSON.stringify(users));
+    //console.log(JSON.stringify(users));
 }
 
 
@@ -127,9 +136,9 @@ const createList = async (req,res) => {
 
     const user = await userModel.findOne({where: {id: sessions[sessionId].id}});
 
-    console.log(user.id);
+    //console.log(user.id);
     //console.log(userSession);
-    console.log(sessions[sessionId].id);
+    //console.log(sessions[sessionId].id);
     
     if(sessions[sessionId].id == user.id){
         try{
@@ -141,14 +150,16 @@ const createList = async (req,res) => {
                     shortDesc: req.body.shortDesc,
                     UserId : user.id,
                 })
+                logger.info('List created successfully');
                 res.send('List created successfully');
             }
             else{
+                logger.info('List not created successfully');
                 return res.send('List not created successfully');
             }
         
         }catch(err){
-            console.log(err);
+            logger.error('Error creating list', err);
         }
     }else{
         res.send('ID not matched!');
@@ -168,15 +179,17 @@ const deleteList = async (req,res) => {
     // console.log(sessions[sessionId].id);
     const list1 = list.id;
 
-    console.log(list1);
+    //console.log(list1);
     
     try{
         if(sessions[sessionId].id == user.id){
             const list = await listModel.destroy({where: {id: list1}});
             if(!list){
+                logger.info('List not found');
                 return res.send('List not found');
             }
             else{
+                logger.info('List deleted successfully');
                 return res.send('List deleted successfully');
             }
             
@@ -184,7 +197,7 @@ const deleteList = async (req,res) => {
             return res.send('Wrong ID');
             }
     }catch(err){
-        console.log(err);
+        logger.error('List not deleted successfully', err);
     }
 }
 
@@ -202,14 +215,16 @@ const findList = async (req,res) => {
     // console.log(sessions[sessionId].id);
     const list1 = list.id;
 
-    console.log(list1);
+    //console.log(list1);
     
     try{
         if(sessions[sessionId].id == user.id){
             const list = await listModel.findOne({where: {id: list1}});
             if(!list){
+                logger.info('List not found');
                 return res.send('List not found');
             }else{
+                logger.info('List found');
                 return res.send(list);
             }
             
@@ -217,7 +232,7 @@ const findList = async (req,res) => {
             return res.send('Wrong ID');
             }
     }catch(err){
-        console.log(err);
+        logger.error(err);
     }
 }
 
@@ -235,15 +250,17 @@ const updateList = async (req,res) => {
         // console.log(sessions[sessionId].id);
         const list1 = list.id;
     
-        console.log(list1);
+        //console.log(list1);
     
         const update = req.body;
 
         if(sessions[sessionId].id == user.id){
             await listModel.update(req.body, {where: {id: list1}});
             if(!list){
+                logger.info('List not found');
                 return res.send('List not found');
             }else{
+                logger.info('List updated successfully');
                 return res.send('List updated successfully');
             }
             
@@ -251,7 +268,7 @@ const updateList = async (req,res) => {
             return res.send('Wrong ID');
             }
     }catch(err){
-        console.log(err);
+        logger.error(err);
     }
 }
 
