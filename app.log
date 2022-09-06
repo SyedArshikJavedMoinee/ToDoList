@@ -16,3 +16,44 @@
 2022-09-05T11:18:39.905Z - [INFO   ] - Connection successful
 2022-09-05T11:18:44.011Z - [INFO   ] - Listening at port 3000
 2022-09-05T11:18:44.082Z - [INFO   ] - Connection successful
+2022-09-06T07:25:10.938Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:25:11.133Z - [INFO   ] - Connection successful
+2022-09-06T07:25:13.566Z - [ERROR  ] - Error verifying Cannot read properties of null (reading 'id')
+2022-09-06T07:25:21.845Z - [INFO   ] - User created successfully
+2022-09-06T07:25:30.265Z - [INFO   ] - User signed in successfully
+2022-09-06T07:26:23.054Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:26:23.113Z - [INFO   ] - Connection successful
+2022-09-06T07:26:43.399Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:26:43.452Z - [INFO   ] - Connection successful
+2022-09-06T07:28:21.238Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:28:21.292Z - [INFO   ] - Connection successful
+2022-09-06T07:28:47.276Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:28:47.383Z - [INFO   ] - Connection successful
+2022-09-06T07:29:53.667Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:29:53.808Z - [INFO   ] - Connection successful
+2022-09-06T07:29:54.400Z - [INFO   ] - User signed in successfully
+2022-09-06T07:29:57.286Z - [INFO   ] - List created successfully
+2022-09-06T07:29:58.599Z - [INFO   ] - List not created successfully
+2022-09-06T07:30:41.506Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:30:41.567Z - [INFO   ] - Connection successful
+2022-09-06T07:31:56.256Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:31:56.346Z - [INFO   ] - Connection successful
+2022-09-06T07:32:02.964Z - [INFO   ] - User signed in successfully
+2022-09-06T07:33:18.923Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:33:18.985Z - [INFO   ] - Connection successful
+2022-09-06T07:33:29.672Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:33:29.750Z - [INFO   ] - Connection successful
+2022-09-06T07:33:32.089Z - [INFO   ] - User signed in successfully
+2022-09-06T07:37:24.683Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:37:24.767Z - [INFO   ] - Connection successful
+2022-09-06T07:37:45.737Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:37:45.809Z - [INFO   ] - Connection successful
+2022-09-06T07:37:59.856Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:37:59.969Z - [INFO   ] - Connection successful
+2022-09-06T07:38:13.114Z - [INFO   ] - User signed in successfully
+2022-09-06T07:38:34.109Z - [INFO   ] - Listening at port 3000
+2022-09-06T07:38:34.178Z - [INFO   ] - Connection successful
+2022-09-06T07:38:35.839Z - [INFO   ] - User signed in successfully
+2022-09-06T08:04:20.016Z - [INFO   ] - Listening at port 3000
+2022-09-06T08:04:20.108Z - [INFO   ] - Connection successful
+2022-09-06T08:04:32.510Z - [INFO   ] - User signed in successfully

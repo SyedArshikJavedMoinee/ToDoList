@@ -16,6 +16,12 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: 'id',
         onDelete: 'CASCADE'
       });
+
+      models.List.hasMany(models.Items);
+      models.Items.belongsTo(models.List, {
+        foreignKey: 'id',
+        onDelete: 'CASCADE'
+      });
     }
   }
   List.init({

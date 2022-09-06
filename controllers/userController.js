@@ -8,7 +8,8 @@ const logger = require('../logger');
 const { loggers, Logger } = require('winston');
 const SECRET_KEY ='HELLO';
 const uuidv4 = require('uuid').v4;
-
+const cron = require('node-cron');
+let nodemailer = require('nodemailer');
 
 var sessions = {};
 
@@ -273,6 +274,56 @@ const updateList = async (req,res) => {
 }
 
 
+const createItem = async (req,res)=>{
+
+}
+
+const deleteItem = async (req,res)=>{
+
+}
+
+const getItem = async (req,res)=>{
+
+}
+
+const updateItem = async (req,res)=>{
+}
+
+const getAllItems = async (req,res)=>{
+
+}
 
 
-module.exports = {signUp, signIn, removeUser, allUsers, createList, deleteList, findList, updateList};
+const sendMail = async (req,res)=>{
+    
+    const sessionId = req.headers.cookie.split('=')[1];
+    const userSession = sessions[sessionId];
+
+    const user = await userModel.findOne({where: {id: sessions[sessionId].id}});
+
+    console.log(sessions[sessionId].email);
+
+    const transporter = nodemailer.createTransport({
+        host: 'smtp.ethereal.email',
+        port: 587,
+        auth: {
+            user: 'kaylin.jast@ethereal.email',
+            pass: 'dGtWQQNwTxdKBjXxvr'
+        }
+    });
+    
+    cron.schedule('6 13 * * *' , ()=>{
+        transporter.sendMail({
+            to : sessions[sessionId].email,
+            from: "fromuser@mail.com",
+            subject: "Test",
+            text: "Content"
+        })
+    })
+
+    res.send({message: 'Success'});
+    
+}
+
+
+module.exports = {signUp, signIn, removeUser, allUsers, createList, deleteList, findList, updateList, createItem, deleteItem, getItem, updateItem, getAllItems, sendMail};
