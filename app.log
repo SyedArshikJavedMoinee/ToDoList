@@ -57,3 +57,316 @@
 2022-09-06T08:04:20.016Z - [INFO   ] - Listening at port 3000
 2022-09-06T08:04:20.108Z - [INFO   ] - Connection successful
 2022-09-06T08:04:32.510Z - [INFO   ] - User signed in successfully
+2022-09-06T09:05:48.934Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:05:49.029Z - [INFO   ] - Connection successful
+2022-09-06T09:05:54.468Z - [ERROR  ] - Error verifying Cannot read properties of null (reading 'id')
+2022-09-06T09:06:04.919Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:06:05.012Z - [INFO   ] - Connection successful
+2022-09-06T09:06:06.405Z - [INFO   ] - User created successfully
+2022-09-06T09:06:11.551Z - [INFO   ] - User signed in successfully
+2022-09-06T09:06:29.038Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:06:29.157Z - [INFO   ] - Connection successful
+2022-09-06T09:06:50.215Z - [INFO   ] - User signed in successfully
+2022-09-06T09:06:58.101Z - [INFO   ] - List created successfully
+2022-09-06T09:07:53.558Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:07:53.633Z - [INFO   ] - Connection successful
+2022-09-06T09:07:56.483Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:07:56.545Z - [INFO   ] - Connection successful
+2022-09-06T09:08:02.942Z - [INFO   ] - User signed in successfully
+2022-09-06T09:10:45.248Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:10:45.320Z - [INFO   ] - Connection successful
+2022-09-06T09:10:55.181Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:10:55.282Z - [INFO   ] - Connection successful
+2022-09-06T09:10:57.131Z - [INFO   ] - User signed in successfully
+2022-09-06T09:11:31.446Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:11:31.560Z - [INFO   ] - Connection successful
+2022-09-06T09:11:34.100Z - [INFO   ] - User signed in successfully
+2022-09-06T09:13:41.204Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:13:41.266Z - [INFO   ] - Connection successful
+2022-09-06T09:13:48.470Z - [INFO   ] - User signed in successfully
+2022-09-06T09:13:51.833Z - [ERROR  ] - Cannot read properties of undefined (reading 'create')
+2022-09-06T09:14:51.250Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:14:51.302Z - [INFO   ] - Connection successful
+2022-09-06T09:15:14.610Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:15:14.741Z - [INFO   ] - Connection successful
+2022-09-06T09:15:18.548Z - [INFO   ] - User signed in successfully
+2022-09-06T09:15:21.176Z - [ERROR  ] - Field 'dueDate' doesn't have a default value
+2022-09-06T09:18:55.269Z - [INFO   ] - User signed in successfully
+2022-09-06T09:19:00.256Z - [ERROR  ] - Field 'dueDate' doesn't have a default value
+2022-09-06T09:20:33.937Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:20:34.036Z - [INFO   ] - Connection successful
+2022-09-06T09:20:41.794Z - [INFO   ] - User signed in successfully
+2022-09-06T09:20:59.816Z - [ERROR  ] - Field 'dueDate' doesn't have a default value
+2022-09-06T09:23:41.338Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:23:41.446Z - [INFO   ] - Connection successful
+2022-09-06T09:23:42.845Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:23:42.899Z - [INFO   ] - Connection successful
+2022-09-06T09:23:56.640Z - [INFO   ] - User signed in successfully
+2022-09-06T09:25:07.457Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:25:07.566Z - [INFO   ] - Connection successful
+2022-09-06T09:25:11.014Z - [INFO   ] - User signed in successfully
+2022-09-06T09:26:58.299Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:26:58.355Z - [INFO   ] - Connection successful
+2022-09-06T09:27:39.783Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:27:39.832Z - [INFO   ] - Connection successful
+2022-09-06T09:27:43.882Z - [INFO   ] - User created successfully
+2022-09-06T09:27:47.866Z - [INFO   ] - User signed in successfully
+2022-09-06T09:28:19.257Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:28:19.330Z - [INFO   ] - Connection successful
+2022-09-06T09:28:21.996Z - [INFO   ] - User signed in successfully
+2022-09-06T09:28:24.788Z - [INFO   ] - List created successfully
+2022-09-06T09:28:52.172Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:28:52.218Z - [INFO   ] - Connection successful
+2022-09-06T09:29:23.839Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:29:23.926Z - [INFO   ] - Connection successful
+2022-09-06T09:29:26.293Z - [INFO   ] - User signed in successfully
+2022-09-06T09:33:16.076Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:33:16.231Z - [INFO   ] - Connection successful
+2022-09-06T09:33:22.238Z - [INFO   ] - User signed in successfully
+2022-09-06T09:35:12.401Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:35:12.445Z - [INFO   ] - Connection successful
+2022-09-06T09:35:15.263Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:35:15.363Z - [INFO   ] - Connection successful
+2022-09-06T09:35:46.506Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:35:46.558Z - [INFO   ] - Connection successful
+2022-09-06T09:35:51.617Z - [INFO   ] - User created successfully
+2022-09-06T09:35:55.172Z - [INFO   ] - User signed in successfully
+2022-09-06T09:36:07.591Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:36:07.646Z - [INFO   ] - Connection successful
+2022-09-06T09:36:11.688Z - [INFO   ] - User signed in successfully
+2022-09-06T09:36:14.072Z - [INFO   ] - List created successfully
+2022-09-06T09:37:11.248Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:37:11.315Z - [INFO   ] - Connection successful
+2022-09-06T09:37:27.420Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:37:27.488Z - [INFO   ] - Connection successful
+2022-09-06T09:37:34.722Z - [INFO   ] - User created successfully
+2022-09-06T09:37:40.374Z - [INFO   ] - User signed in successfully
+2022-09-06T09:37:43.359Z - [INFO   ] - List created successfully
+2022-09-06T09:37:48.588Z - [INFO   ] - Item created successfully
+2022-09-06T09:40:02.538Z - [INFO   ] - Item created successfully
+2022-09-06T09:41:21.109Z - [INFO   ] - Item created successfully
+2022-09-06T09:43:21.140Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:43:21.204Z - [INFO   ] - Connection successful
+2022-09-06T09:43:58.420Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:43:58.499Z - [INFO   ] - Connection successful
+2022-09-06T09:44:02.673Z - [INFO   ] - User created successfully
+2022-09-06T09:44:06.909Z - [INFO   ] - User signed in successfully
+2022-09-06T09:44:10.310Z - [INFO   ] - List created successfully
+2022-09-06T09:44:25.280Z - [INFO   ] - Item created successfully
+2022-09-06T09:45:01.603Z - [INFO   ] - Item created successfully
+2022-09-06T09:45:15.500Z - [INFO   ] - Item created successfully
+2022-09-06T09:45:30.943Z - [INFO   ] - Item created successfully
+2022-09-06T09:46:09.621Z - [INFO   ] - Item created successfully
+2022-09-06T09:46:28.583Z - [INFO   ] - Item created successfully
+2022-09-06T09:46:43.138Z - [INFO   ] - Item created successfully
+2022-09-06T09:47:02.683Z - [INFO   ] - Item created successfully
+2022-09-06T09:47:28.634Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:47:28.711Z - [INFO   ] - Connection successful
+2022-09-06T09:48:10.996Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:48:11.104Z - [INFO   ] - Connection successful
+2022-09-06T09:48:15.827Z - [INFO   ] - User signed in successfully
+2022-09-06T09:48:18.939Z - [INFO   ] - Item created successfully
+2022-09-06T09:50:58.450Z - [INFO   ] - Item created successfully
+2022-09-06T09:51:36.661Z - [INFO   ] - Item created successfully
+2022-09-06T09:51:50.800Z - [INFO   ] - Item created successfully
+2022-09-06T09:52:05.378Z - [INFO   ] - Item created successfully
+2022-09-06T09:52:34.482Z - [INFO   ] - Item created successfully
+2022-09-06T09:56:52.959Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:56:53.001Z - [INFO   ] - Connection successful
+2022-09-06T09:57:54.890Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:57:54.939Z - [INFO   ] - Connection successful
+2022-09-06T09:57:58.920Z - [INFO   ] - User signed in successfully
+2022-09-06T09:58:06.867Z - [INFO   ] - Item created successfully
+2022-09-06T09:58:40.242Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:58:40.315Z - [INFO   ] - Connection successful
+2022-09-06T09:58:47.383Z - [INFO   ] - User signed in successfully
+2022-09-06T09:58:50.741Z - [INFO   ] - Item created successfully
+2022-09-06T09:59:47.009Z - [INFO   ] - Listening at port 3000
+2022-09-06T09:59:47.084Z - [INFO   ] - Connection successful
+2022-09-06T09:59:50.839Z - [INFO   ] - User signed in successfully
+2022-09-06T09:59:52.670Z - [INFO   ] - Item created successfully
+2022-09-06T10:00:04.771Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:00:04.865Z - [INFO   ] - Connection successful
+2022-09-06T10:00:08.548Z - [INFO   ] - User signed in successfully
+2022-09-06T10:00:10.301Z - [INFO   ] - Item created successfully
+2022-09-06T10:00:47.301Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:00:47.344Z - [INFO   ] - Connection successful
+2022-09-06T10:01:35.639Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:01:35.726Z - [INFO   ] - Connection successful
+2022-09-06T10:01:39.273Z - [INFO   ] - User signed in successfully
+2022-09-06T10:01:41.272Z - [INFO   ] - Item created successfully
+2022-09-06T10:02:17.945Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:02:18.003Z - [INFO   ] - Connection successful
+2022-09-06T10:02:53.259Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:02:53.298Z - [INFO   ] - Connection successful
+2022-09-06T10:02:56.970Z - [INFO   ] - User created successfully
+2022-09-06T10:03:03.161Z - [INFO   ] - User signed in successfully
+2022-09-06T10:03:28.880Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:03:29.020Z - [INFO   ] - Connection successful
+2022-09-06T10:03:33.401Z - [INFO   ] - User signed in successfully
+2022-09-06T10:03:36.026Z - [INFO   ] - List created successfully
+2022-09-06T10:03:40.026Z - [INFO   ] - Item created successfully
+2022-09-06T10:05:19.995Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:05:20.055Z - [INFO   ] - Connection successful
+2022-09-06T10:05:28.133Z - [INFO   ] - User signed in successfully
+2022-09-06T10:05:30.053Z - [INFO   ] - Item created successfully
+2022-09-06T10:06:57.327Z - [INFO   ] - Item created successfully
+2022-09-06T10:07:18.840Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:07:18.956Z - [INFO   ] - Connection successful
+2022-09-06T10:07:44.091Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:07:44.140Z - [INFO   ] - Connection successful
+2022-09-06T10:07:45.908Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:07:45.967Z - [INFO   ] - Connection successful
+2022-09-06T10:07:47.753Z - [INFO   ] - User signed in successfully
+2022-09-06T10:07:52.127Z - [INFO   ] - Item created successfully
+2022-09-06T10:08:16.365Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:08:16.416Z - [INFO   ] - Connection successful
+2022-09-06T10:08:18.176Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:08:18.308Z - [INFO   ] - Connection successful
+2022-09-06T10:08:22.052Z - [INFO   ] - User signed in successfully
+2022-09-06T10:08:24.429Z - [INFO   ] - Item created successfully
+2022-09-06T10:09:12.113Z - [INFO   ] - Item created successfully
+2022-09-06T10:10:55.225Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:10:55.286Z - [INFO   ] - Connection successful
+2022-09-06T10:10:57.770Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:10:57.821Z - [INFO   ] - Connection successful
+2022-09-06T10:11:13.609Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:11:13.659Z - [INFO   ] - Connection successful
+2022-09-06T10:11:18.999Z - [INFO   ] - User created successfully
+2022-09-06T10:11:23.488Z - [INFO   ] - User signed in successfully
+2022-09-06T10:11:26.531Z - [INFO   ] - List created successfully
+2022-09-06T10:12:12.405Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:12:12.497Z - [INFO   ] - Connection successful
+2022-09-06T10:12:39.883Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:12:39.947Z - [INFO   ] - Connection successful
+2022-09-06T10:12:46.757Z - [INFO   ] - User created successfully
+2022-09-06T10:12:50.004Z - [INFO   ] - User signed in successfully
+2022-09-06T10:12:52.645Z - [INFO   ] - List created successfully
+2022-09-06T10:12:55.894Z - [INFO   ] - Item created successfully
+2022-09-06T10:14:39.530Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:14:39.574Z - [INFO   ] - Connection successful
+2022-09-06T10:14:56.086Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:14:56.133Z - [INFO   ] - Connection successful
+2022-09-06T10:16:02.576Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:16:02.674Z - [INFO   ] - Connection successful
+2022-09-06T10:16:09.933Z - [INFO   ] - User created successfully
+2022-09-06T10:16:12.976Z - [INFO   ] - User signed in successfully
+2022-09-06T10:16:15.156Z - [INFO   ] - List created successfully
+2022-09-06T10:16:17.923Z - [INFO   ] - Item created successfully
+2022-09-06T10:16:38.526Z - [INFO   ] - Item created successfully
+2022-09-06T10:17:09.515Z - [INFO   ] - Item created successfully
+2022-09-06T10:19:15.491Z - [INFO   ] - Item created successfully
+2022-09-06T10:19:32.237Z - [INFO   ] - Item created successfully
+2022-09-06T10:19:43.661Z - [INFO   ] - Item created successfully
+2022-09-06T10:19:57.521Z - [INFO   ] - Item created successfully
+2022-09-06T10:20:04.428Z - [INFO   ] - Item created successfully
+2022-09-06T10:24:59.001Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:24:59.044Z - [INFO   ] - Connection successful
+2022-09-06T10:25:21.407Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:25:21.449Z - [INFO   ] - Connection successful
+2022-09-06T10:25:43.913Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:25:43.976Z - [INFO   ] - Connection successful
+2022-09-06T10:25:52.387Z - [INFO   ] - User created successfully
+2022-09-06T10:25:56.641Z - [INFO   ] - User signed in successfully
+2022-09-06T10:25:59.113Z - [INFO   ] - List created successfully
+2022-09-06T10:26:04.238Z - [INFO   ] - Item created successfully
+2022-09-06T10:26:48.366Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:26:48.422Z - [INFO   ] - Connection successful
+2022-09-06T10:27:33.062Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:27:33.107Z - [INFO   ] - Connection successful
+2022-09-06T10:27:35.264Z - [INFO   ] - User created successfully
+2022-09-06T10:27:38.164Z - [INFO   ] - User signed in successfully
+2022-09-06T10:27:40.536Z - [INFO   ] - List created successfully
+2022-09-06T10:27:50.401Z - [INFO   ] - Item created successfully
+2022-09-06T10:29:02.384Z - [INFO   ] - User signed in successfully
+2022-09-06T10:29:05.095Z - [INFO   ] - Item created successfully
+2022-09-06T10:29:48.100Z - [INFO   ] - Item created successfully
+2022-09-06T10:30:17.867Z - [INFO   ] - Item created successfully
+2022-09-06T10:30:35.722Z - [INFO   ] - Item created successfully
+2022-09-06T10:32:10.438Z - [INFO   ] - Item created successfully
+2022-09-06T10:33:06.876Z - [INFO   ] - Item created successfully
+2022-09-06T10:34:31.149Z - [INFO   ] - Item created successfully
+2022-09-06T10:36:17.111Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:36:17.184Z - [INFO   ] - Connection successful
+2022-09-06T10:36:31.483Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:36:31.543Z - [INFO   ] - Connection successful
+2022-09-06T10:36:52.317Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:36:52.383Z - [INFO   ] - Connection successful
+2022-09-06T10:37:01.588Z - [INFO   ] - User created successfully
+2022-09-06T10:37:04.716Z - [INFO   ] - User signed in successfully
+2022-09-06T10:37:07.478Z - [INFO   ] - List created successfully
+2022-09-06T10:37:41.598Z - [INFO   ] - Item created successfully
+2022-09-06T10:38:11.138Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:38:11.192Z - [INFO   ] - Connection successful
+2022-09-06T10:38:24.528Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:38:24.571Z - [INFO   ] - Connection successful
+2022-09-06T10:38:29.336Z - [INFO   ] - User created successfully
+2022-09-06T10:38:32.387Z - [INFO   ] - User signed in successfully
+2022-09-06T10:38:34.772Z - [INFO   ] - List created successfully
+2022-09-06T10:39:10.520Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:39:10.573Z - [INFO   ] - Connection successful
+2022-09-06T10:39:25.154Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:39:25.194Z - [INFO   ] - Connection successful
+2022-09-06T10:39:53.075Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:39:53.144Z - [INFO   ] - Connection successful
+2022-09-06T10:39:58.556Z - [INFO   ] - User created successfully
+2022-09-06T10:40:01.865Z - [INFO   ] - User signed in successfully
+2022-09-06T10:40:04.616Z - [INFO   ] - List created successfully
+2022-09-06T10:40:06.765Z - [INFO   ] - Item created successfully
+2022-09-06T10:40:32.454Z - [INFO   ] - Item created successfully
+2022-09-06T10:41:01.239Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:41:01.284Z - [INFO   ] - Connection successful
+2022-09-06T10:41:31.535Z - [INFO   ] - Listening at port 3000
+2022-09-06T10:41:31.604Z - [INFO   ] - Connection successful
+2022-09-06T10:41:34.391Z - [INFO   ] - User signed in successfully
+2022-09-06T10:41:36.527Z - [INFO   ] - Item created successfully
+2022-09-06T10:42:05.161Z - [INFO   ] - Item created successfully
+2022-09-06T10:43:03.211Z - [INFO   ] - User created successfully
+2022-09-06T10:43:14.674Z - [INFO   ] - User signed in successfully
+2022-09-06T10:43:21.616Z - [INFO   ] - List created successfully
+2022-09-06T10:43:34.455Z - [INFO   ] - Item created successfully
+2022-09-06T11:07:09.174Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:07:09.313Z - [INFO   ] - Connection successful
+2022-09-06T11:07:16.768Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:07:16.811Z - [INFO   ] - Connection successful
+2022-09-06T11:07:43.131Z - [INFO   ] - User signed in successfully
+2022-09-06T11:08:25.153Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:08:25.212Z - [INFO   ] - Connection successful
+2022-09-06T11:08:28.855Z - [INFO   ] - User signed in successfully
+2022-09-06T11:11:14.858Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:11:14.915Z - [INFO   ] - Connection successful
+2022-09-06T11:11:35.448Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:11:35.525Z - [INFO   ] - Connection successful
+2022-09-06T11:11:39.186Z - [INFO   ] - User signed in successfully
+2022-09-06T11:12:09.257Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:12:09.301Z - [INFO   ] - Connection successful
+2022-09-06T11:12:29.375Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:12:29.501Z - [INFO   ] - Connection successful
+2022-09-06T11:12:36.528Z - [INFO   ] - User signed in successfully
+2022-09-06T11:13:30.175Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:13:30.262Z - [INFO   ] - Connection successful
+2022-09-06T11:13:45.458Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:13:45.519Z - [INFO   ] - Connection successful
+2022-09-06T11:15:38.231Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:15:38.283Z - [INFO   ] - Connection successful
+2022-09-06T11:16:28.092Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:16:28.183Z - [INFO   ] - Connection successful
+2022-09-06T11:17:00.867Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:17:00.923Z - [INFO   ] - Connection successful
+2022-09-06T11:17:04.597Z - [INFO   ] - User signed in successfully
+2022-09-06T11:17:21.835Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:17:21.908Z - [INFO   ] - Connection successful
+2022-09-06T11:17:25.773Z - [INFO   ] - User signed in successfully
+2022-09-06T11:18:45.256Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:18:45.336Z - [INFO   ] - Connection successful
+2022-09-06T11:18:54.837Z - [INFO   ] - User signed in successfully
+2022-09-06T11:19:26.889Z - [INFO   ] - Listening at port 3000
+2022-09-06T11:19:26.961Z - [INFO   ] - Connection successful
+2022-09-06T11:19:32.185Z - [INFO   ] - User signed in successfully
+2022-09-06T11:19:49.885Z - [INFO   ] - List not created successfully
+2022-09-06T11:19:55.281Z - [INFO   ] - Item created successfully
+2022-09-06T11:19:56.585Z - [INFO   ] - Item created successfully
+2022-09-06T11:19:57.456Z - [INFO   ] - Item created successfully
+2022-09-06T11:19:58.161Z - [INFO   ] - Item created successfully
+2022-09-06T11:19:58.882Z - [INFO   ] - Item created successfully
+2022-09-06T11:19:59.559Z - [INFO   ] - Item created successfully

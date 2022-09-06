@@ -27,7 +27,10 @@ module.exports = (sequelize, DataTypes) => {
   }
   Items.init({
     title: DataTypes.STRING,
-    description: DataTypes.STRING
+    description: DataTypes.STRING,
+    completionStatus : DataTypes.BOOLEAN,
+    dueDate: DataTypes.DATEONLY,
+    completionDateTime : DataTypes.DATEONLY,
   }, {
     sequelize,
     modelName: 'Items',

@@ -14,18 +14,7 @@ module.exports = {
       description: {
         type: Sequelize.STRING
       },
-      dueDate: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      completionStatus: {
-        allowNull: false,
-        type: Sequelize.BOOLEAN
-      },
-      completionDateTime: {
-        allowNull: true,
-        type: Sequelize.DATE
-      },
+      
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
@@ -33,6 +22,22 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+
+      dueDate: {
+        type: Sequelize.DATEONLY,
+        allowNull: true,
+        defaultValue: Sequelize.NOW
+      },
+      completionStatus: {
+        type: Sequelize.DataTypes.BOOLEAN,
+        allowNull: false,
+        defaultValue: false
+      },
+      completionDateTime: {
+        type: Sequelize.DATEONLY,
+        allowNull: true,
+        defaultValue: Sequelize.NOW
       },
 
       USERID: {
@@ -51,6 +56,7 @@ module.exports = {
         onDelete: 'CASCADE',
         references: {
           model: 'lists',
+          as : 'ListId',
           key: 'id',
         }
       },

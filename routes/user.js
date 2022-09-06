@@ -33,7 +33,7 @@ router.put('/updateList', updateList);
 
 router.post('/createItem', createItem);
 
-router.delete('/deleteItem', deleteItem);
+router.delete('/deleteItem/:id', deleteItem);
 
 router.get('/getItem', getItem);
 

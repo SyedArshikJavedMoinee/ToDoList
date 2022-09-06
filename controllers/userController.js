@@ -2,6 +2,7 @@ const { request, response } = require('express');
 const model = require('../models');
 const userModel = model.Users;
 const listModel = model.List;
+const itemModel = model.Items;
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const logger = require('../logger');
@@ -275,12 +276,52 @@ const updateList = async (req,res) => {
 
 
 const createItem = async (req,res)=>{
+    const sessionId = req.headers.cookie.split('=')[1];
+    const userSession = sessions[sessionId];
 
+    const user = await userModel.findOne({where: {id: sessions[sessionId].id}});
+    const list1 = await listModel.findOne({where: {UserId: user.id}});
+    console.log(user.id);
+    console.log(list1.id);
+
+    if(sessions[sessionId].id == user.id){
+            const list = await itemModel.create({    
+                title: req.body.title,
+                description: req.body.description,
+                dueDate: req.body.dueDate,
+                completionStatus : req.body.completionStatus,
+                completionDateTime: req.body.completionDateTime,
+                UserId: user.id,
+                ListId: list1.id
+            })
+
+            logger.info('Item created successfully');
+            console.log(req.body.dueDate);
+            return res.send('item created successfully');
+            }      
+    else{
+        return res.send('Wrong ID');
+
+    }
 }
 
 const deleteItem = async (req,res)=>{
+    const sessionId = req.headers.cookie.split('=')[1];
+    const userSession = sessions[sessionId];
+    const list2 = await itemModel.findOne({where: {UserId: sessions[sessionId].id}});
+    const uid  = list2.UserId;
+    
 
+    if(sessions[sessionId].id == uid){
+        await itemModel.destroy({where: {id: req.params.id}});
+        res.send(`${req.params.id} deleted successfully`);
+    }      
+    else{
+        return res.send('Wrong');
+
+    }
 }
+
 
 const getItem = async (req,res)=>{
 
