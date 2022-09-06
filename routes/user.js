@@ -2,11 +2,11 @@ const express = require('express');
 const router = express.Router();
 const userModel = require('../models/users');
 const db = require('../config/config.json');
-const {createList, signUp, signIn, removeUser, allUsers, deleteList, findList, updateList} = require('../controllers/userController');
+const {createList, signUp, signIn, removeUser, allUsers, deleteList, findList, updateList, createItem, updateItem, deleteItem, getItem, getAllItems, sendMail} = require('../controllers/userController');
 const checkAuthMiddleware = require('../middleware/auth');
 const { request } = require('express');
 
-
+                                                                        //User Routes
 router.get('/', (req, res) => {
     res.send('User Routes');
 });
@@ -19,7 +19,7 @@ router.delete('/removeUser/:id', removeUser);
 
 router.get('/allUsers', allUsers);
 
-
+                                                                        //List Routes
 
 router.post('/createList', createList);
 
@@ -29,9 +29,19 @@ router.get('/findList', findList);
 
 router.put('/updateList', updateList);
 
+                                                                        //Item Routes
 
+router.post('/createItem', createItem);
 
+router.delete('/deleteItem', deleteItem);
 
+router.get('/getItem', getItem);
+
+router.put('/updateItem', updateItem);
+
+router.put('/getAllItems' , getAllItems);
+
+router.post('/sendMail', sendMail);
 
 // router.get('/secret', checkAuthMiddleware.checkAuth , (req,res,next) => {
 //     console.log(req.email);
