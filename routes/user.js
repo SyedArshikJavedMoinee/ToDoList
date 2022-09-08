@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 const userModel = require('../models/users');
 const db = require('../config/config.json');
-const {createList, signUp, signIn, removeUser, allUsers, deleteList, findList, updateList, createItem, updateItem, deleteItem, getItem, getAllItems, sendMail} = require('../controllers/userController');
+const {createList, signUp, signIn, removeUser, allUsers, deleteList, findList, updateList, createItem, updateItem, deleteItem, getItem, getAllItems, sendMail, countTasks, notCompletedOnTime,
+     average, subString} = require('../controllers/userController');
 const checkAuthMiddleware = require('../middleware/auth');
 const { request } = require('express');
 
@@ -37,12 +38,19 @@ router.delete('/deleteItem/:id', deleteItem);
 
 router.get('/getItem', getItem);
 
-router.put('/updateItem', updateItem);
+router.put('/updateItem/:id', updateItem);
 
-router.put('/getAllItems' , getAllItems);
+router.get('/getAllItems' , getAllItems);
+
+
+
+                                                                        //Custom Query Routes
 
 router.post('/sendMail', sendMail);
-
+router.get('/countTasks' ,countTasks);
+router.get('/notCompletedOnTime', notCompletedOnTime);
+router.get('/average', average);
+router.get('/subString', subString);
 // router.get('/secret', checkAuthMiddleware.checkAuth , (req,res,next) => {
 //     console.log(req.email);
 //     res.send('This is your secret');
