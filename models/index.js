@@ -35,4 +35,4 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 
-module.exports = dB;
+module.exports = DB;
