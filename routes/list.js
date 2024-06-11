@@ -7,11 +7,11 @@ router.get('/', function(req, res){
     res.send('List routes');
 })
 
-router.post('/createList', function(req, res){
+router.post('/createListt', function(req, res){
     res.send('List created');
 })
 
-router.delete('/deleteList', function(req, res){
+router.delete('/deleteListt', function(req, res){
     res.send('List deleted');
 })
 
