@@ -8,7 +8,7 @@ router.get('/', function(req, res){
 })
 
 router.post('/createLiistatd', function(req, res){
-    res.send('List created');
+    response.send('List created');
 })
 
 router.delete('/deleteListt', function(req, res){
