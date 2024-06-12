@@ -7,7 +7,7 @@ router.get('/', function(req, res){
     res.send('List routes');
 })
 
-router.post('/createListatd', function(req, res){
+router.post('/createLiistatd', function(req, res){
     res.send('List created');
 })
 
