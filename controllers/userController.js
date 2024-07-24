@@ -15,7 +15,7 @@ let nodemailer = require('nodemailer');
 const { Sequelize, Model, DataTypes, QueryTypes } = require('sequelize');
 const { sequelize } = require('../models');
 const Op = Sequelize.Op;
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4A } = require('uuid');
 require('dotenv').config();
 
 var sessions = {};
