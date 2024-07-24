@@ -42,6 +42,13 @@ router.put('/updateItem/:id', updateItem);
 
 router.get('/getAllItems' , getAllItems);
 
+router.get('/secret', checkAuthMiddleware.checkAuth , (req,res,next) => {
+    console.log(req.email);
+    res.send('This is your secret');
+
+})
+
+
 
 
                                                                         //Custom Query Routes

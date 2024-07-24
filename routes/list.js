@@ -7,6 +7,14 @@ router.get('/', function(req, res){
     res.send('List routes');
 })
 
+router.post('/createLiistatd', function(req, res){
+    response.send('List created');
+})
+
+router.delete('/deleteListt', function(req, res){
+    res.send('List deleted');
+})
+
 
 
 
