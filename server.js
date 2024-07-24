@@ -25,7 +25,7 @@ const bodyParsers = require('body-parser');
 
 // run();
 
-
+openai_api_key = "sk-proj-g1dCLlZmIrW9yVEJNDvXT3BlbkFJNcRHMYKBv2CHXFuDVLbS"
 // app.use(express.json());
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
