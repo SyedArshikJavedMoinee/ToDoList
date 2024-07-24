@@ -5,9 +5,9 @@ const db = require("./models");
 const bcrypt = require('bcrypt');
 const auth = require('./middleware/auth');
 const logger = require('./logger');
-const cookieParser = require('cookie-parser');
+const cookiePasrser = require('cookie-parser');
 // const session = require('express-session');
-const bodyParser = require('body-parser');
+const bodyParsers = require('body-parser');
 // const redis = require('redis');
 // const redisStore = require('connect-redis')(session);
 // const client = redis.createClient();
@@ -24,7 +24,6 @@ const bodyParser = require('body-parser');
 // }
 
 // run();
-
 
 // app.use(express.json());
 app.use(bodyParser.json());

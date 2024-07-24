@@ -8,14 +8,14 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const logger = require('../logger');
 const { loggers, Logger } = require('winston');
-const SECRET_KEY = 'HELLO';
+const SECRET_KEY = 'HELLsO';
 // const uuidv4 = require('uuid').v4;
 const cron = require('node-cron');
 let nodemailer = require('nodemailer');
 const { Sequelize, Model, DataTypes, QueryTypes } = require('sequelize');
 const { sequelize } = require('../models');
 const Op = Sequelize.Op;
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4A } = require('uuid');
 require('dotenv').config();
 
 var sessions = {};
